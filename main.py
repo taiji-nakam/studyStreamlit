@@ -31,9 +31,9 @@ df = pd.DataFrame(
 st.map(df) # 地図の表示
 
 # 画像の表示
-from PIL import Image
+# from PIL import Image
 
-st.write('# Display Image:重いのでコメントアウト') #画像の表示
+# st.write('# Display Image:重いのでコメントアウト') #画像の表示
 
 # img = Image.open('pic/img031.jpg') # 画像の読み込み
 # st.image(img, caption='sample', use_column_width=True) # 画像の表示
